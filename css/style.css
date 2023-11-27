@@ -1,8 +1,61 @@
 /* font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif; */
 
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
 .container{
     width: 1140;
     padding: 0 15px;
     margin: 0 auto;
+}
+.header{
+    background-color: #012D63;;
+}
+.header-logo{
+}
+.header-wrap{
+
+}
+.site-nav-list{
+}
+.site-nav-item{
+    width: 86px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.site-nav-link{
+    color: #C7C7C7;
+}
+.site-nav-link-main{
+    color: #FFF;
+    font-weight: 400;
+}
+.translate-list{
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+}
+.translate-ua-link{
+    color: #DCDCDC;
+    font-weight: 300;
+}
+.translate-eng-link{
+    font-weight: 400;
+    color: #FFF;
+}
+.hero-logo{
+    width: 160px;
+}
+.hero-logo-text{
+    width: 178px;
+    font-family: PT Serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
