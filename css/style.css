@@ -20,7 +20,6 @@ body {
 
 .site-nav-list{
     display: flex;
-    justify-content: space-between;
 }
 
 .site-nav {
@@ -42,26 +41,40 @@ body {
     margin-right: 29px;
 }
 
+
 .site-nav-link {
 }
 
-.site-nav-item {
+.site-nav-link:hover {
+    color: #FFF;
 }
 
 .site-nav-link {
     color: #C7C7C7;
+    width: 86px;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 .site-nav-link-main {
     color: #FFF;
+    width: 112px;
+    font-size: 24px;
+    font-weight: 400;
+    
 }
 
 .translate-ua-link {
     color: #DCDCDC;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 .translate-eng-link {
     color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 15px;
 }
 
 .translate-list{
@@ -70,9 +83,91 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.hero-container{
+
+.hero-logo-text{
+    width: 178px;
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.main-title{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 144px;
+    font-weight: 400;
+}
+
+.hero-logo{
+    padding-top: 94px;
+}
+
+.hero-title{
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 400;
+    font-family: Playfair Display;
+}
+
+.hero-text{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 12px;
+    padding-bottom: 41px;
+}
+
+.hero{
     background-image: url(../img/main_bg.webp);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    margin: 0 auto;
+    padding-top: 94px;
+    padding-bottom: 183px;
+}
+.hero-button{
+    background-color: #8E32C6;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    padding-left: 61px;
+    padding-right: 61px;
+    border-radius: 10px;
+}
+.benefits{
+    display: flex;
+    font-family: Playfair Display;
+    background-image: url(../img/benefits_bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.benefits{
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+.list-benefits{
+    width: 1110px;
+    margin: 0 auto;
+    border: 5px solid #8E32C6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
     
+}
+.item-benefits{
+
+}
+.title-benefits{
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
 }
