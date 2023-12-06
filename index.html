@@ -3,67 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nike</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <title>NIKE</title>
 </head>
 <body>
-
     <header class="header">
-        <div class="container header-wrap">
-            <a href="#" class="header-logo"><img src="./img/logo.webp" alt="logo"></a>
-            <nav class="site-nav">
-                <ul class="site-nav-list">
-                    <li class="site-nav-item">
-                        <a class="site-nav-link-main" href="#">Main page</a>
-                    </li>
-                    <li class="site-nav-item">
-                        <a class="site-nav-link" href="#">Benefits</a>
-                    </li>
-                    <li class="site-nav-item">
-                        <a class="site-nav-link" href="#">Advantages</a>
-                    </li>
-                    <li class="site-nav-item">
-                        <a class="site-nav-link" href="#">Reviews</a>
-                    </li>
-                    <li class="site-nav-item">
-                        <a class="site-nav-link" href="#">Contacts</a>
-                    </li>
-                    <li class="site-nav-item">
-                        <a class="site-nav-link" href="#">Order</a>
+        <div class="container container-nav">
+            <div class="header-wrap">
+                <a class="header-logo" href="#"><img src="./img/logo.webp" alt="logo"></a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a class="nav-link nav-link-main" href="#">Main page</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Benefits</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Advantages</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Order</a></li>
+                    </ul>
+                </nav>
+                <ul class="header-list">
+                    <li class="header-item">
+                        <p class="header-paragraf">Ua <span class="header-span">Eng</span></p>
                     </li>
                 </ul>
-            </nav>
-
-            <ul class="translate-list">
-                <li class="translate-ua">
-                    <a class="translate-ua-link" href="#">Ua</a>
-                </li>
-                <li class="translate-eng">
-                    <a class="translate-eng-link" href="#">Eng</a>
-                </li>
-            </ul>
+            </div>
         </div>
     </header>
-    
+
     <main class="main">
         <section class="hero">
-            <div class="container hero-container">
-                <a href="index.html"><img class="hero-logo" src="./img/logo.webp" alt=""></a>
-                <p class="hero-logo-text">С&R</p>
+            <div class="container container-hero">
+                <a href="index.html"><img class="hero-img" src="./img/logo.webp" alt="logo"></a>
+                <p class="logo-text">C&R</p>
                 <h1 class="main-title">ColoRawe</h1>
                 <h2 class="hero-title">Your dream Nike</h2>
                 <p class="hero-text">
-                    On this site you can find custom Nike sneakers of your dreams. <br>
-                    The original company caт`t create such beautiful <br>
+                    On this site you can find custom Nike sneakers of your dreams.
+                    <br>
+                    The original company can't create such beautiful <br>
                     sneakers as we do. <br>
                     Good luck finding your way in the world of custom sneakers.
                 </p>
-                <button class="hero-button">Buy my Nike</button>
+                <button class="button-hero">Buy my Nike</button>
             </div>
         </section>
 
@@ -71,16 +57,16 @@
             <div class="container container-benefits">
                 <ul class="list-benefits">
                     <li class="item-benefits">
-                        <h3 class="title-benefits">Premium Quality</h3>
-                        <img src="./img/stars.webp" alt="">
+                        <h3 class="benefits-title">Premium <br> Quality</h3>
+                        <img class="benefits-img" src="./img/stars.webp" alt="stars">
                     </li>
                     <li class="item-benefits">
-                        <img src="./img/paints.webp" alt="">
-                        <h3 class="title-benefits">Indelible paint</h3>
+                        <img class="benefits-img" src="./img/paints.webp" alt="paints">
+                        <h3 class="benefits-title">Indelible <br> paint</h3>
                     </li>
                     <li class="item-benefits">
-                        <h3 class="title-benefits">Fast shipping</h3>
-                            <img src="./img/car.webp" alt="">
+                        <h3 class="benefits-title">Fast <br> shipping</h3>
+                        <img class="benefits-img" src="./img/car.webp" alt="car">
                     </li>
                 </ul>
             </div>
@@ -88,53 +74,51 @@
 
         <section class="reviews">
             <div class="container container-reviews">
-                <h2 class="reviews-title">Reviews</h2>
+                <h2 class="reviews-title-one">Reviews</h2>
                 <ul class="reviews-list">
                     <li class="reviews-item">
-                        <div>
-                            <p class="reviews-text">
-                                Sneakers are very 
-                                comfortable and well 
-                                painted, nothing has 
-                                worn off in a year.</p>
+                        <div class="reviews-wrap">
+                            <p class="reviews-text">Sneakers are very comfortable and well painted, nothing has worn off in a year.</p>
                             <span class="span-reviews">25.11</span>
                         </div>
-                        <div>
-                            <img src="./img/macho.webp" alt="reviews">
-                        </div>
-                        <div>
-                        <h3 class="reviews-title">John Teylor</h3>
-                        <p class="wrap-reviews">With us from 2018</p>
+                        <div class="div-reviews">
+                            <div>
+                                <img class="img-reviews" src="./img/macho.webp" alt="1">
+                            </div>
+                            <div>
+                                <h3 class="reviews-title">John Teylor</h3>
+                                <p class="wrap-reviews">With us from 2018</p>
+                            </div>
                         </div>
                     </li>
                     <li class="reviews-item">
-                        <div>
-                            <p class="reviews-text">
-                                I'm very happy with this color scheme.
-                            They match all my clothes.</p>
+                        <div class="reviews-wrap">
+                            <p class="reviews-text">I'm very happy with this color scheme. They match all my clothes.</p>
                             <span class="span-reviews">05.01</span>
                         </div>
-                        <div>
-                            <img src="./img/woomen.webp" alt="reviews">
-                        </div>
-                        <div>
-                            <h3 class="reviews-title">Elizabeth Garsia</h3>
-                            <p class="wrap-reviews">With us from 2020</p>
+                        <div class="div-reviews">
+                            <div>
+                                <img class="img-reviews" src="./img/woomen.webp" alt="2">
+                            </div>
+                            <div>
+                                <h3 class="reviews-title">Elizabeth Garsia</h3>
+                                <p class="wrap-reviews">With us from 2020</p>
+                            </div>
                         </div>
                     </li>
                     <li class="reviews-item">
-                        <div>
-                            <p class="reviews-text">
-                                Just right if you need to go to a party.
-                                I use them actively, the paint is super.</p>
-                                <span class="span-reviews">18.06</span>
+                        <div class="reviews-wrap">
+                            <p class="reviews-text">Just right if you need to go to a party. I use them actively, the paint is super.</p>
+                            <span class="span-reviews">18.06</span>
                         </div>
-                        <div>
-                            <img src="./img/man.webp" alt="reviews">
-                        </div>
-                        <div>
-                            <h3 class="reviews-title">Tom Maquare</h3>
-                            <p class="wrap-reviews">With us from 2019</p>
+                        <div class="div-reviews">
+                            <div>
+                                <img class="img-reviews" src="./img/man.webp" alt="3">
+                            </div>
+                            <div>
+                                <h3 class="reviews-title">Tom Maquare</h3>
+                                <p class="wrap-reviews">With us from 2019</p>
+                            </div>
                         </div>
                     </li>
                 </ul>
@@ -142,55 +126,50 @@
         </section>
 
         <section class="order">
-            <div class="container container-order">
-                <h2 class="order-title">Order</h2>
-                <form>
-                    <input type="email" placeholder="Write your email         confrim  ">
-                    <input type="text" placeholder="Your Country">
-                    <input type="text" placeholder="Your City">
-                    <input type="text" placeholder="Your Adress">
-                    <button type="submit">Order my Nike</button>
+            <div class="container conteiner-order">
+                <h2 class="title-order">Order</h2>
+                <form class="form-order" action="">
+                    <input class="input-order" type="email" placeholder="   Write your email                                                confirm">
+                    <input class="input-order" type="text" placeholder="   Your Country">
+                    <input class="input-order" type="text" placeholder="   Your City">
+                    <input class="input-order" type="text" placeholder="   Your Adress">
+                    <button class="button-order" type="submit">Order my Nike</button>
                 </form>
             </div>
         </section>
     </main>
-    <footer>
+
+    <footer class="footer">
         <div class="container">
-        <ul>
-            <li>
-                <p>Have a question?</p>
-            </li>
-            <li>
-                <p>Have a proposal for cooperation?</p>
-            </li>
-            <li>
-                <p>Advertising questions?</p>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a>
-            </li>
-            <li>
-                <a href="mailto:ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a>
-            </li>
-            <li>
-                <a href="mailto:ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a>
-            </li>
-        </ul>
-
-        <ul>
-            <li>
-                <p>2022 ColoRawe @All rights reserved</p>
-            </li>
-            <li>
-                <p>United States</p>
-            </li>
-        </ul>
-                <img src="./img/logo.webp" alt="logo">
-                <p>С&R</p>
+            <div class="footer-wrap">
+                <ul class="footer-left">
+                    <li class="footer-text">Have a question?</li>
+                    <li class="footer-text">Have a proposal for cooperation?</li>
+                    <li class="footer-text">Advertising questions?</li>
+                </ul>
+                <ul class="footer-right">
+                    <li class="footer-link">
+                        <a class="footer-email" href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a>
+                    </li>
+                    <li class="footer-link">
+                        <a class="footer-email" href="mailto:ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a>
+                    </li>
+                    <li class="footer-link">
+                        <a class="footer-email" href="mailto:ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a>
+                    </li>
+                </ul>
             </div>
+            <div class="footer-wrapper">
+                <ul>
+                    <li class=" footer-text-two"><p class="footer-email-two">2022 ColoRawe @All rights reserved</p></li>
+                    <li class=" footer-text-two"><p class="footer-adres">United States</p></li>
+                </ul>
+                <ul>
+                    <li><img class="footer-img" src="./img/logo.webp" alt=""></li>
+                    <li><p class="footer-title">С&R</p></li>
+                </ul>
+            </div>
+        </div>
     </footer>
-
 </body>
 </html>
