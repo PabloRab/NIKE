@@ -94,7 +94,6 @@
   
   .logo-text {
     width: 178px;
-    height: 86px;
     color: var(--fff-color);
     font-weight: 400;
     font-family: PT Serif;
@@ -129,6 +128,10 @@
   }
   
   .button-hero {
+    background-color: #9d39dc;
+  }
+
+  .button-hero {
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     background: var(--bg-button);
@@ -138,7 +141,6 @@
     font-weight: 400;
     color: var(--fff-color);
     cursor: pointer;
-    padding: 20px 61px;
   }
   
   .button-hero-text {
@@ -352,7 +354,7 @@
     border-radius: 16px;
     background: var(--bg-button);
     width: 248px;
-    height: 68px;
+    padding: 20px 48px;
     color: var(--fff-color);
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
