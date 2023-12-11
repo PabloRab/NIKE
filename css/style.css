@@ -34,13 +34,17 @@
     font-size: 24px;
   }
   
+  .nav-link:hover{
+    color: var(--fff-color);
+  }
+
   .nav-link {
     color: var(--header-color-text);
     font-family: Roboto;
     font-weight: 300;
   }
   
-  .nav-link:hover {
+  .header-paragraf:hover {
     color: var(--fff-color);
   }
   
@@ -50,7 +54,7 @@
     display: flex;
     align-items: center;
   }
-  
+
   .header-paragraf {
     color: var(--header-color-text);
     font-family: Roboto;
