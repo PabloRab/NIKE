@@ -198,7 +198,7 @@
   }
   
   .reviews {
-    background-image: url(../img/flowers.webp) , url(../img/order-bg.webp) ;
+    background-image: url(../img/flowers.webp), url(../img/order-bg.webp) ;
     background-repeat: no-repeat, no-repeat;
     background-position:bottom left, center ;
     background-size: 240px, cover ;
