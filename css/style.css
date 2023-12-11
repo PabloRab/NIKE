@@ -127,8 +127,8 @@
     margin-bottom: 41px;
   }
   
-  .button-hero {
-    background-color: #9d39dc;
+  .button-hero:hover {
+    background-color: #ac3ef1;
   }
 
   .button-hero {
@@ -349,7 +349,11 @@
     width: 580px;
     height: 50px;
   }
-  
+
+  .button-order:hover{
+    background-color: #ac3ef1;
+  }
+
   .button-order {
     border-radius: 16px;
     background: var(--bg-button);
@@ -399,6 +403,10 @@
     margin-bottom: 7px;
   }
   
+  .footer-email:hover{
+    color: var(--bg-button);
+  }
+
   .footer-email {
     color: var(--fff-color);
     font-size: 24px;
